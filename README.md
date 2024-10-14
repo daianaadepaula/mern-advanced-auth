@@ -83,7 +83,7 @@ The following routes are available:
 
 To deploy the app in a production environment:
 
-1. **Build the frontend:**
+1. **Run this app locally:**
 
    ```bash
    npm run build
@@ -92,7 +92,7 @@ To deploy the app in a production environment:
 2. **Run the app:**
 
    ```bash
-   npm start
+   npm run start
    ```
 
 This will serve the backend and frontend as a single application.
