@@ -44,13 +44,13 @@ To get started with the project, follow these steps:
    Create a .env file in the root directory with the following content:
 
    ```bash
-   	NODE_ENV=development
-   	PORT=5000
-   	MONGO_URI=your_mongodb_uri
-   	JWT_SECRET=your_jwt_secret
-   	MAILTRAP_USER=your_mailtrap_user
-   	MAILTRAP_PASS=your_mailtrap_pass
-   	CLIENT_URL=http://localhost:5173
+   NODE_ENV=development
+   PORT=5000
+	MONGO_URI=your_mongodb_uri
+   JWT_SECRET=your_jwt_secret
+   MAILTRAP_USER=your_mailtrap_user
+   MAILTRAP_PASS=your_mailtrap_pass
+   CLIENT_URL=http://localhost:5173
    ```
 
 4. **Run the application in development mode:**
@@ -99,4 +99,4 @@ This will serve the backend and frontend as a single application.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the <a href="https://github.com/daianaadepaula/mern-advanced-auth/blob/main/LICENSE">MIT License</a>.
