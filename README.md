@@ -45,8 +45,8 @@ To get started with the project, follow these steps:
 
    ```bash
    NODE_ENV=development
-   PORT=5000
-	MONGO_URI=your_mongodb_uri
+   PORT=3000
+   MONGO_URI=your_mongodb_uri
    JWT_SECRET=your_jwt_secret
    MAILTRAP_USER=your_mailtrap_user
    MAILTRAP_PASS=your_mailtrap_pass
@@ -96,6 +96,12 @@ To deploy the app in a production environment:
    ```
 
 This will serve the backend and frontend as a single application.
+
+## API Documentation
+
+You can access the Swagger API documentation at:
+
+    Swagger Documentation: http://localhost:3000/api-docs
 
 ## License
 

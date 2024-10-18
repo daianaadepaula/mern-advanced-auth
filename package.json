@@ -11,7 +11,8 @@
 	"keywords": [],
 	"author": {
 		"name": "Daiana de Paula",
-		"email": "daianaadepaula1@gmail.com"
+		"email": "daianaadepaula1@gmail.com",
+		"url": "https://github.com/daianaadepaula"
 	},
 	"license": "ISC",
 	"description": "",
@@ -24,7 +25,9 @@
 		"express": "^4.21.1",
 		"jsonwebtoken": "^9.0.2",
 		"mailtrap": "^3.4.0",
-		"mongoose": "^8.7.0"
+		"mongoose": "^8.7.0",
+		"swagger-jsdoc": "^6.2.8",
+		"swagger-ui-express": "^5.0.1"
 	},
 	"devDependencies": {
 		"cross-env": "^7.0.3",

@@ -4,6 +4,9 @@ import cors from 'cors'
 import cookieParser from "cookie-parser"
 import path from "path";
 
+import swaggerUi from 'swagger-ui-express';
+import swaggerDocs from '../swaggerOptions.js';
+
 import { connectDB } from "./db/connectDB.js"
 import authRoutes from "./routes/authRoutes.js"
 
@@ -14,6 +17,7 @@ const PORT = process.env.PORT || 3000
 const __dirname = path.resolve();
 
 app.use(cors({ origin: "http://localhost:5173", credentials: true }))
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 app.use(express.json())
 app.use(cookieParser()) // allows us to parse incoming cookies
